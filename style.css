@@ -6,7 +6,7 @@
 }
 
 :root {
-  --red: rgb(230, 0, 0);
+  --alizarin-crimson: rgba(218, 37, 53, 1);
   --alabaster: rgb(251, 251, 251);
 }
 
@@ -29,7 +29,7 @@
 }
 
 .company-name--red {
-  color: var(--red);
+  color: var(--alizarin-crimson);
 }
 
 .menu-icon {
@@ -51,6 +51,7 @@
 .apresentation__description {
   margin-top: 2rem;
   font-size: 1.2rem;
+  line-height: 1.8rem;
 }
 
 .apresentation__button {
@@ -60,7 +61,7 @@
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--alabaster);
-  background-color: var(--red);
+  background-color: var(--alizarin-crimson);
   border: none;
   border-radius: 0.4rem;
 }
