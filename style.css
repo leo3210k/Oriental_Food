@@ -1,3 +1,37 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: 'Inter', sans-serif;
+}
+
+:root {
+  --red: rgb(255, 0, 0);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 1.2rem 1.4rem;
+}
+
+.header {
+  height: 4vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.company-name--red {
+  color: var(--red);
+}
+
+.menu-icon {
+  width: 1.7rem;
+  height: 1.7rem;
 }
