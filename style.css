@@ -39,9 +39,9 @@
 }
 
 .apresentation {
-  margin-top: 3rem;
   display: flex;
   flex-direction: column;
+  margin-top: 3rem;
 }
 
 .apresentation__food-name {
@@ -68,4 +68,39 @@
   background-color: var(--alizarin-crimson);
   border: none;
   border-radius: 0.4rem;
+}
+
+.preparation-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.preparation-style__dish {
+  border-radius: 0.5rem;
+}
+
+.preparation-style__title {
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.preparation-style__description {
+  margin-top: 1.4rem;
+  text-align: center;
+  line-height: 1.8rem;
+  font-family: var(--inter-font);
+  font-weight: 400;
+}
+
+.preparation-style__link {
+  margin-top: 1.4rem;
+  color: var(--alizarin-crimson);
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
