@@ -8,6 +8,7 @@
 :root {
   --alizarin-crimson: rgba(218, 37, 53, 1);
   --alabaster: rgb(251, 251, 251);
+  --inter-font: 'Inter', sans-serif;
 }
 
 .container {
@@ -52,6 +53,7 @@
   margin-top: 2rem;
   font-size: 1.2rem;
   font-weight: 400;
+  font-family: var(--inter-font);
   line-height: 1.8rem;
 }
 
@@ -61,6 +63,7 @@
 
   font-size: 1.2rem;
   font-weight: 600;
+  font-family: var(--inter-font);
   color: var(--alabaster);
   background-color: var(--alizarin-crimson);
   border: none;
