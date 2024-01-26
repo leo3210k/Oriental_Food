@@ -274,3 +274,53 @@
   border-radius: 0 1rem 1rem 0;
   background-color: var(--alizarin-crimson);
 }
+
+.footer {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  font-family: var(--inter-font);
+}
+
+.footer__company-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.footer__company-name--red {
+  color: var(--alizarin-crimson);
+}
+
+.footer__informations {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1.5rem;
+  column-gap: 4rem;
+}
+
+.informations__contact,
+.informations__services,
+.informations__about-us {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.informations__contact span:not(:first-child),
+.informations__services span:not(:first-child),
+.informations__about-us span:not(:first-child) {
+  font-size: 0.9rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact__title,
+.services__title,
+.about-us__title {
+  margin-bottom: 0.4rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
