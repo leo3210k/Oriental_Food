@@ -8,6 +8,7 @@
 :root {
   --alizarin-crimson: rgba(218, 37, 53, 1);
   --alabaster: rgb(251, 251, 251);
+  --concrete: rgb(243, 243, 243);
   --inter-font: 'Inter', sans-serif;
 }
 
@@ -103,4 +104,17 @@
   text-decoration: underline;
   font-size: 1.1rem;
   font-weight: 500;
+}
+
+.populars {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.populars__title {
+  margin: 4rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
