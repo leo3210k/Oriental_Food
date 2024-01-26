@@ -94,8 +94,14 @@
   justify-content: center;
 }
 
-.preparation-style__dish {
+.preparation-style__image {
   border-radius: 0.5rem;
+}
+
+.preparation-style__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .preparation-style__title {
@@ -395,5 +401,27 @@
 
   .apresentation__image {
     display: block;
+  }
+
+  .preparation-style {
+    flex-direction: row;
+    column-gap: 8rem;
+  }
+
+  .preparation-style__image {
+    width: 36vw;
+  }
+
+  .preparation-style__content * {
+    text-align: start;
+  }
+
+  .preparation-style__title {
+    font-size: 2.3rem;
+  }
+
+  .preparation-style__description,
+  .preparation-style__link {
+    font-size: 1.2rem;
   }
 }
