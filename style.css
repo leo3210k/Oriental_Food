@@ -331,12 +331,17 @@
 
 @media (min-width: 1261px) {
   .container {
-    padding: 1.2rem 10rem;
+    padding: 1.8rem 10rem;
+  }
+
+  .company-name {
+    font-size: 2rem;
   }
 
   .header__options {
     display: flex;
     font-family: var(--inter-font);
+    font-size: 1.2rem;
     font-weight: 500;
     column-gap: 5rem;
   }
@@ -348,6 +353,7 @@
     background-color: transparent;
     border: 1px solid;
     border-radius: 0.3rem;
+    font-size: 1.2rem;
     font-family: var(--inter-font);
     font-weight: 600;
   }
