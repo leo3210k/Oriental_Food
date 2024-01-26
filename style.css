@@ -205,11 +205,14 @@
 }
 
 .comments__card .card__comment {
+  margin-top: 1rem;
   text-align: center;
-  font-weight: 300;
+  color: var(--dove-gray);
+  font-weight: 400;
   font-family: var(--inter-font);
 }
 
 .comments__card .card__icons {
-  
+  display: flex;
+  column-gap: 0.5rem;
 }
