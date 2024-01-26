@@ -37,6 +37,11 @@
   color: var(--alizarin-crimson);
 }
 
+.header__options,
+.header__button {
+  display: none;
+}
+
 .menu-icon {
   width: 1.7rem;
   height: 1.7rem;
@@ -325,5 +330,29 @@
 }
 
 @media (min-width: 1261px) {
-  
+  .container {
+    padding: 1.2rem 10rem;
+  }
+
+  .header__options {
+    display: flex;
+    font-family: var(--inter-font);
+    font-weight: 500;
+    column-gap: 5rem;
+  }
+
+  .header__button {
+    display: block;
+    padding: 0.4rem 2rem;
+
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 0.3rem;
+    font-family: var(--inter-font);
+    font-weight: 600;
+  }
+
+  .menu-icon {
+    display: none;
+  }
 }
