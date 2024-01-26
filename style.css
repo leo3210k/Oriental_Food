@@ -50,15 +50,23 @@
 .apresentation {
   margin-top: 3rem;
   display: flex;
+}
+
+.apresentation__content {
+  display: flex;
   flex-direction: column;
 }
 
-.apresentation__food-name {
+.apresentation__image {
+  display: none;
+}
+
+.content__food-name {
   font-size: 2rem;
   font-weight: 600;
 }
 
-.apresentation__description {
+.content__description {
   margin-top: 2rem;
   font-size: 1.2rem;
   font-weight: 400;
@@ -66,7 +74,7 @@
   line-height: 1.8rem;
 }
 
-.apresentation__button {
+.content__button {
   margin-top: 2rem;
   padding: 0.8rem;
 
@@ -360,5 +368,32 @@
 
   .menu-icon {
     display: none;
+  }
+
+  .apresentation {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .apresentation__content {
+    width: 30vw;
+  }
+
+  .content__food-name {
+    font-size: 2.3rem;
+  }
+
+  .content__description {
+    font-size: 1.2rem;
+  }
+
+  .content__button {
+    width: 18vw;
+  }
+
+  .apresentation__image {
+    display: block;
   }
 }
