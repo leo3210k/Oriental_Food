@@ -405,6 +405,7 @@
   }
 
   .preparation-style {
+    margin-top: 6yrem;
     flex-direction: row;
     column-gap: 8rem;
   }
