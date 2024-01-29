@@ -451,4 +451,48 @@
   .populars__card .card__image {
     top: -4.5rem;
   }
+
+  .comments {
+    margin-top: 2rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .comments__title {
+    font-size: 2.3rem;
+  }
+
+  .comments__cards {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 2rem;
+  }
+
+  .comments__card {
+    max-width: 30vw;
+    padding-right: 6rem;
+    align-items: flex-start;
+
+    border-radius: 1rem;
+  }
+
+  .comments__card .card__image {
+    width: 80px;
+    height: 80px;
+  }  
+  
+  .comments__card .card__title {
+    font-size: 1.4rem;
+  }
+  
+  .comments__card .card__comment {
+    margin-top: 0;
+    text-align: start;
+  }
+
+  .card__icon {
+    width: 15px;
+    height: 15px;
+  }
 }
