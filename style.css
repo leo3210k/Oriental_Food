@@ -141,6 +141,7 @@
   font-weight: 600;
 }
 
+/* Text wraps in a certain width */
 .populars__card {
   position: relative;
   min-height: 26rem;
@@ -436,8 +437,18 @@
   }
 
   .populars__cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
 
   .populars__card {
+    max-width: 23vw;
+    min-height: 26rem;
+    border-radius: 2rem;
+  }
+
+  .populars__card .card__image {
+    top: -4.5rem;
   }
 }
