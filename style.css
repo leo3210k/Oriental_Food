@@ -331,20 +331,20 @@
   row-gap: 0.5rem;
 }
 
-.informations__contact span:not(:first-child),
-.informations__services span:not(:first-child),
-.informations__about-us span:not(:first-child) {
-  font-size: 0.9rem;
-  font-family: 'Roboto', sans-serif;
-}
-
 .contact__title,
 .services__title,
 .about-us__title {
   margin-bottom: 0.4rem;
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 700;
   font-family: 'Poppins', sans-serif;
+}
+
+.informations__contact span:not(:first-child),
+.informations__services span:not(:first-child),
+.informations__about-us span:not(:first-child) {
+  font-size: 0.9rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media (min-width: 1261px) {
@@ -539,5 +539,38 @@
 
   .search__icon {
     display: none;
+  }
+
+  .footer {
+    flex-direction: row;
+    column-gap: 2rem;
+  }
+
+  .footer__company-name {
+    font-size: 2rem;
+  }
+
+  .footer__informations {
+    column-gap: 10rem;
+  }
+
+  .informations__contact,
+  .informations__services,
+  .informations__about-us {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8rem;
+  }
+
+  .contact__title,
+  .services__title,
+  .about-us__title {
+    font-size: 1.4rem;
+  }
+
+  .informations__contact span:not(:first-child),
+  .informations__services span:not(:first-child),
+  .informations__about-us span:not(:first-child) {
+    font-size: 1.2rem;
   }
 }
