@@ -405,7 +405,7 @@
   }
 
   .preparation-style {
-    margin-top: 6yrem;
+    margin-top: 6rem;
     flex-direction: row;
     column-gap: 8rem;
   }
@@ -427,7 +427,17 @@
     font-size: 1.2rem;
   }
 
+  .populars {
+    margin-top: 6rem;
+  }
+
   .populars__title {
     font-size: 2.3rem;
+  }
+
+  .populars__cards {
+  }
+
+  .populars__card {
   }
 }
