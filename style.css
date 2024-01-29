@@ -13,6 +13,8 @@
   --dove-gray: rgba(97, 97, 97, 1);
   --mine-shaft: rgba(41, 41, 41, 1);
   --inter-font: 'Inter', sans-serif;
+  --desktop-title-size: 3rem;
+  --desktop-description-size: 1.6rem;
 }
 
 .container {
@@ -392,15 +394,17 @@
   }
 
   .content__food-name {
-    font-size: 2.3rem;
+    font-size: var(--desktop-title-size);
   }
 
   .content__description {
-    font-size: 1.2rem;
+    line-height: 2.5rem;
+    font-size: var(--desktop-description-size);
   }
 
   .content__button {
     width: 18vw;
+    font-size: 1.6rem;
   }
 
   .apresentation__image {
