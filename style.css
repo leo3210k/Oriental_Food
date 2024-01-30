@@ -433,7 +433,7 @@
 
   .preparation-style__description,
   .preparation-style__link {
-    font-size: 1.2rem;
+    font-size: var(--desktop-subtext-font-size);
   }
 
   .populars {
@@ -496,6 +496,7 @@
   
   .comments__card .card__comment {
     margin-top: 0;
+    font-size: var(--desktop-subtext-font-size);
     text-align: start;
   }
 
@@ -527,6 +528,7 @@
 
   .button__input {
     padding-right: 1rem;
+    font-size: var(--desktop-subtext-font-size);
   }
 
   .button__search {
@@ -538,6 +540,7 @@
   .search__text {
     display: block;
     color: var(--alabaster);
+    font-size: var(--desktop-subtext-font-size);
     font-weight: 500;
     font-family: var(--inter-font);
   }
