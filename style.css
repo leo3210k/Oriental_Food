@@ -12,6 +12,7 @@
   --dove-gray: rgba(97, 97, 97, 1);
   --mine-shaft: rgba(41, 41, 41, 1);
   --inter-font: 'Inter', sans-serif;
+  --desktop-company-name-font-size: 2.5rem;
   --desktop-title-size: 3rem;
   --desktop-subtext-font-size: 1.6rem;
   --desktop-line-height: 2.5rem;
@@ -356,7 +357,7 @@
   }
 
   .company-name {
-    font-size: 2.5rem;
+    font-size: var(--desktop-company-name-font-size);
   }
 
   .header__options {
@@ -584,7 +585,7 @@
   }
 
   .footer__company-name {
-    font-size: 2rem;
+    font-size: var(--desktop-company-name-font-size);
   }
 
   .footer__informations {
