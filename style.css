@@ -500,7 +500,7 @@
   .comments__card {
     width: 35vw;
     min-height: 25rem;
-    padding-right: 6rem;
+    padding: 2rem 6rem 2rem 2rem;
     align-items: flex-start;
 
     border-radius: 1rem;
