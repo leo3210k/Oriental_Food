@@ -603,7 +603,7 @@
   .contact__title,
   .services__title,
   .about-us__title {
-    font-size: 1.4rem;
+    font-size: var(--desktop-populars-and-comments-card-title);
   }
 
   .informations__contact span:not(:first-child),
