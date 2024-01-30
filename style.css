@@ -463,6 +463,8 @@
   }
 
   .populars__card .card__image {
+    width: 280px;
+    height: 280px;
     top: -4.5rem;
   }
 
