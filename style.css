@@ -17,7 +17,7 @@
   --desktop-subtext-font-size: 1.6rem;
   --desktop-line-height: 2.5rem;
   --desktop-sections-margin-top: 6rem;
-  --desktop-populars-and-comments-card-title: 2rem;
+  --desktop-populars-comments-card-title-and-footer-title: 2rem;
 }
 
 .container {
@@ -472,7 +472,7 @@
   }
 
   .populars__card .card__title {
-    font-size: var(--desktop-populars-and-comments-card-title);
+    font-size: var(--desktop-populars-comments-card-title-and-footer-title);
   }
 
   .populars__card .card__description {
@@ -512,7 +512,7 @@
   }  
   
   .comments__card .card__title {
-    font-size: var(--desktop-populars-and-comments-card-title);
+    font-size: var(--desktop-populars-comments-card-title-and-footer-title);
   }
   
   .comments__card .card__comment {
@@ -603,7 +603,7 @@
   .contact__title,
   .services__title,
   .about-us__title {
-    font-size: var(--desktop-populars-and-comments-card-title);
+    font-size: var(--desktop-populars-comments-card-title-and-footer-title);
   }
 
   .informations__contact span:not(:first-child),
