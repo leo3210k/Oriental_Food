@@ -3,7 +3,6 @@
   padding: 0;
   color: var(--mine-shaft);
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
 }
 
 :root {
@@ -21,6 +20,7 @@
   width: 100vw;
   height: 100vh;
   padding: 1.2rem 2rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header {
