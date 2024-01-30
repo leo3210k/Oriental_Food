@@ -445,6 +445,7 @@
   }
 
   .populars__title {
+    margin-bottom: 7rem;
     font-size: var(--desktop-title-size);
   }
 
