@@ -517,8 +517,9 @@
   
   .comments__card .card__comment {
     margin-top: 0;
-    font-size: var(--desktop-subtext-font-size);
     text-align: start;
+    line-height: var(--desktop-line-height);
+    font-size: var(--desktop-subtext-font-size);
   }
 
   .card__icon {
