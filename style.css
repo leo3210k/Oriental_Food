@@ -609,6 +609,6 @@
   .informations__contact span:not(:first-child),
   .informations__services span:not(:first-child),
   .informations__about-us span:not(:first-child) {
-    font-size: 1.2rem;
+    font-size: 1.125rem;
   }
 }
