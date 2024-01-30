@@ -420,6 +420,7 @@
 
   .preparation-style__image {
     width: 36vw;
+    border-radius: 1rem;
   }
 
   .preparation-style__content * {
