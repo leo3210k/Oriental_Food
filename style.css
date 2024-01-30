@@ -428,7 +428,7 @@
   }
 
   .preparation-style__title {
-    font-size: 2.3rem;
+    font-size: var(--desktop-title-size);
   }
 
   .preparation-style__description,
@@ -441,7 +441,7 @@
   }
 
   .populars__title {
-    font-size: 2.3rem;
+    font-size: var(--desktop-title-size);
   }
 
   .populars__cards {
@@ -467,7 +467,7 @@
   }
 
   .comments__title {
-    font-size: 2.3rem;
+    font-size: var(--desktop-title-size);
   }
 
   .comments__cards {
@@ -510,7 +510,7 @@
   }
 
   .location__title {
-    font-size: 2.3rem;
+    font-size: var(--desktop-title-size);
   }
 
   .location__image {
