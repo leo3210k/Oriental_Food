@@ -13,13 +13,13 @@
   --mine-shaft: rgba(41, 41, 41, 1);
   --inter-font: 'Inter', sans-serif;
   --tablet-company-name-font-size: 2.5rem;
-  --tablet-title-size: 3rem;
+  --tablet-section-title-font-size: 2.5rem;
   --tablet-subtext-font-size: 1.6rem;
   --tablet-line-height: 2.5rem;
   --tablet-sections-margin-top: 6rem;
   --tablet-populars-comments-card-title-and-footer-title: 1.3rem;
   --desktop-company-name-font-size: 2.5rem;
-  --desktop-title-size: 3rem;
+  --desktop-section-title-font-size: 3rem;
   --desktop-subtext-font-size: 1.6rem;
   --desktop-line-height: 2.5rem;
   --desktop-sections-margin-top: 6rem;
@@ -364,13 +364,13 @@
   }
 
   .company-name {
-    font-size: var(--desktop-company-name-font-size);
+    font-size: var(--tablet-company-name-font-size);
   }
 
   .header__options {
     display: flex;
     font-family: var(--inter-font);
-    font-size: var(--desktop-subtext-font-size);
+    font-size: var(--tablet-subtext-font-size);
     font-weight: 500;
     column-gap: 5rem;
   }
@@ -382,7 +382,7 @@
     background-color: transparent;
     border: 2px solid;
     border-radius: 0.6rem;
-    font-size: var(--desktop-subtext-font-size);
+    font-size: var(--tablet-subtext-font-size);
     font-family: var(--inter-font);
     font-weight: 600;
   }
@@ -392,7 +392,7 @@
   }
 
   .apresentation {
-    margin-top: var(--desktop-sections-margin-top);
+    margin-top: var(--tablet-sections-margin-top);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -403,12 +403,12 @@
   }
 
   .content__food-name {
-    font-size: var(--desktop-title-size);
+    font-size: var(--tablet-section-title-font-size);
   }
 
   .content__description {
-    line-height: var(--desktop-line-height);
-    font-size: var(--desktop-subtext-font-size);
+    line-height: var(--tablet-line-height);
+    font-size: var(--tablet-subtext-font-size);
   }
 
   .content__button {
@@ -422,7 +422,7 @@
   }
 
   .preparation-style {
-    margin-top: var(--desktop-sections-margin-top);
+    margin-top: var(--tablet-sections-margin-top);
     flex-direction: row;
     column-gap: 8rem;
   }
@@ -437,25 +437,25 @@
   }
 
   .preparation-style__title {
-    font-size: var(--desktop-title-size);
+    font-size: var(--tablet-section-title-font-size);
   }
 
   .preparation-style__description {
-    line-height: var(--desktop-line-height);
+    line-height: var(--tablet-line-height);
   }
 
   .preparation-style__description,
   .preparation-style__link {
-    font-size: var(--desktop-subtext-font-size);
+    font-size: var(--tablet-subtext-font-size);
   }
 
   .populars {
-    margin-top: var(--desktop-sections-margin-top);
+    margin-top: var(--tablet-sections-margin-top);
   }
 
   .populars__title {
     margin-bottom: 7rem;
-    font-size: var(--desktop-title-size);
+    font-size: var(--tablet-section-title-font-size);
   }
 
   .populars__cards {
@@ -488,13 +488,13 @@
   }
 
   .comments {
-    margin-top: var(--desktop-sections-margin-top);
+    margin-top: var(--tablet-sections-margin-top);
     justify-content: flex-start;
     align-items: flex-start;
   }
 
   .comments__title {
-    font-size: var(--desktop-title-size);
+    font-size: var(--tablet-section-title-font-size);
   }
 
   .comments__cards {
@@ -525,8 +525,8 @@
   .comments__card .card__comment {
     margin-top: 0;
     text-align: start;
-    line-height: var(--desktop-line-height);
-    font-size: var(--desktop-subtext-font-size);
+    line-height: var(--tablet-line-height);
+    font-size: var(--tablet-subtext-font-size);
   }
 
   .card__icon {
@@ -534,12 +534,12 @@
   }
 
   .location {
-    margin-top: var(--desktop-sections-margin-top);
+    margin-top: var(--tablet-sections-margin-top);
     align-items: flex-start;
   }
 
   .location__title {
-    font-size: var(--desktop-title-size);
+    font-size: var(--tablet-section-title-font-size);
   }
 
   .location__image {
@@ -564,7 +564,7 @@
 
   .button__input {
     padding: 0.7rem 1rem 0.7rem 0rem;
-    font-size: var(--desktop-subtext-font-size);
+    font-size: var(--tablet-subtext-font-size);
   }
 
   .button__search {
@@ -576,7 +576,7 @@
   .search__text {
     display: block;
     color: var(--alabaster);
-    font-size: var(--desktop-subtext-font-size);
+    font-size: var(--tablet-subtext-font-size);
     font-weight: 500;
     font-family: var(--inter-font);
   }
@@ -591,7 +591,7 @@
   }
 
   .footer__company-name {
-    font-size: var(--desktop-company-name-font-size);
+    font-size: var(--tablet-company-name-font-size);
   }
 
   .footer__informations {
@@ -664,7 +664,7 @@
   }
 
   .content__food-name {
-    font-size: var(--desktop-title-size);
+    font-size: var(--desktop-section-title-font-size);
   }
 
   .content__description {
@@ -698,7 +698,7 @@
   }
 
   .preparation-style__title {
-    font-size: var(--desktop-title-size);
+    font-size: var(--desktop-section-title-font-size);
   }
 
   .preparation-style__description {
@@ -716,7 +716,7 @@
 
   .populars__title {
     margin-bottom: 7rem;
-    font-size: var(--desktop-title-size);
+    font-size: var(--desktop-section-title-font-size);
   }
 
   .populars__cards {
@@ -755,7 +755,7 @@
   }
 
   .comments__title {
-    font-size: var(--desktop-title-size);
+    font-size: var(--desktop-section-title-font-size);
   }
 
   .comments__cards {
@@ -800,7 +800,7 @@
   }
 
   .location__title {
-    font-size: var(--desktop-title-size);
+    font-size: var(--desktop-section-title-font-size);
   }
 
   .location__image {
