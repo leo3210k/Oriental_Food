@@ -304,8 +304,8 @@
 }
 
 .footer {
+  height: 25vh;
   margin-top: 4rem;
-  margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
