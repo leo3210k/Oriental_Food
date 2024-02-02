@@ -528,7 +528,6 @@
   }
 
   .location {
-    height: 80vh;
     margin-top: var(--desktop-sections-margin-top);
     align-items: flex-start;
   }
