@@ -466,7 +466,6 @@
     justify-content: space-between;
   }
 
-  /* Text wraps in a certain width */
   .populars__card {
     max-width: 17.5vw;
     min-height: 25rem;
@@ -516,8 +515,8 @@
   }
 
   .comments__card .card__image {
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: 90px;
   }  
   
   .comments__card .card__title {
