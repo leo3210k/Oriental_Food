@@ -372,7 +372,7 @@
     font-family: var(--inter-font);
     font-size: var(--tablet-subtext-font-size);
     font-weight: 500;
-    column-gap: 5rem;
+    column-gap: 3rem;
   }
 
   .header__button {
@@ -413,7 +413,7 @@
 
   .content__button {
     width: 18vw;
-    font-size: 1.6rem;
+    font-size: var(--tablet-subtext-font-size);
   }
 
   .apresentation__image {
