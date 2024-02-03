@@ -424,11 +424,12 @@
   .preparation-style {
     margin-top: var(--tablet-sections-margin-top);
     flex-direction: row;
+    align-items: center;
     column-gap: 8rem;
   }
 
   .preparation-style__image {
-    height: 60vh;
+    height: 50vh;
     border-radius: 1rem;
   }
 
