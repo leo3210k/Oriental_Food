@@ -42,6 +42,7 @@
 .company-name {
   font-size: 1.3rem;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .company-name--red {
@@ -96,6 +97,7 @@
   background-color: var(--alizarin-crimson);
   border: none;
   border-radius: 0.4rem;
+  cursor: pointer;
 }
 
 .preparation-style {
@@ -137,6 +139,7 @@
   text-decoration: underline;
   font-size: 1.1rem;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .populars {
@@ -309,6 +312,7 @@
   align-items: center;
   align-self: normal;
   background-color: var(--alizarin-crimson);
+  cursor: pointer;
 }
 
 .search__text {
@@ -381,6 +385,10 @@
     column-gap: 3rem;
   }
 
+  .header__options * {
+    cursor: pointer;
+  }
+
   .header__button {
     display: block;
     padding: 0.4rem 3.5rem;
@@ -391,6 +399,7 @@
     font-size: var(--tablet-subtext-font-size);
     font-family: var(--inter-font);
     font-weight: 600;
+    cursor: pointer;
   }
 
   .menu-icon {
