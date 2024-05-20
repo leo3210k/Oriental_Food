@@ -32,7 +32,6 @@
 }
 
 .header {
-  height: 4vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
